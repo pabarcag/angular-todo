@@ -5,15 +5,17 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './modules/auth/auth.module';
 import { TaskModule } from './modules/task/task.module';
 import { AppRoutingModule } from './app-routing.module';
-import { TestComponent } from './test/test.component';
 import { HomeComponent } from './home/home.component';
+import { HomeChildOneComponent } from './home-child-one/home-child-one.component';
+import { HolmeChildTwoComponent } from './holme-child-two/holme-child-two.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent,
-    HomeComponent
+    HomeComponent,
+    HomeChildOneComponent,
+    HolmeChildTwoComponent
   ],
   imports: [
     BrowserModule,
